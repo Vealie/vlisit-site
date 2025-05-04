@@ -2,78 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The V List</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f8;
+      color: #222;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #14121f;
-      color: #f2f2f2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
       padding: 2rem;
+      max-width: 700px;
+      margin: auto;
     }
-
-    .container {
-      text-align: center;
-      max-width: 600px;
-      width: 100%;
-    }
-
-    .logo {
-      width: 100px;
-      height: auto;
-      margin-bottom: 1.5rem;
-    }
-
-    h1 {
+    h1, h2 {
       color: #5cc2ff;
-      font-size: 2.5rem;
+    }
+    a {
+      color: #5cc2ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .logo {
+      max-width: 120px;
+      height: auto;
       margin-bottom: 1rem;
     }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin: 0.8rem 0;
-    }
-
-    .coming-soon {
-      margin-top: 2rem;
-      font-weight: bold;
-      color: #cccccc;
-    }
-
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
+    section {
+      margin-bottom: 2rem;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img class="logo" src="VList_Logo_Transparent.png" alt="VList Logo" />
+  <header>
+    <img src="VList_Logo_Transparent.png" alt="VList Logo" class="logo" />
     <h1>The V List</h1>
+    <p>Your shared shopping list — right in WhatsApp.</p>
+  </header>
+
+  <section>
+    <h2>What is The V List?</h2>
     <p>
-      A WhatsApp-based shopping list app for couples, families, and housemates who want a clutter-free way to stay organised.
+      The V List is a simple, WhatsApp-based shopping list designed for couples, families, and housemates. 
+      By messaging your dedicated V List number on WhatsApp, you can add, remove, or view items from a shared list — no apps to download, no accounts to manage.
     </p>
     <p>
-      Just message your V List number to add or remove items — no downloads, no logins, no fuss.
+      Whether you're coordinating a weekly shop or managing a busy household, The V List keeps everyone on the same page with a private, fast, and familiar chat-based experience.
     </p>
-    <p class="coming-soon">We're getting ready to launch — thanks for stopping by!</p>
-  </div>
+    <p>
+      Our service runs entirely on the WhatsApp Business Platform and is built with privacy, simplicity, and shared convenience in mind.
+    </p>
+  </section>
+
+  <section>
+    <h2>Coming Soon</h2>
+    <p>
+      We’re currently preparing for public launch. Join us soon to simplify your shopping with just a message.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Have questions or want to learn more? Reach out to us at 
+      <a href="mailto:tomv@thevlist.co.uk">tomv@thevlist.co.uk</a>.
+    </p>
+  </section>
 </body>
 </html>
